@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.custom-container {
+	width: 100%;
+	padding: 0;
+}
+
+.custom-tag-container {
+	border: 2px solid #ccc;
+	padding: 5px;
+	border-radius: 5px;
+	display: flex;
+}
+
+.custom-tag-container .custom-tag {
+	padding: 6px;
+	border: 1px solid #ccc;
+	margin: 5px;
+	display: flex;
+	align-items: center;
+	border-radius: 6px;
+	background: #00a6ff;
+	color: #f2f2f2;
+	font-weight: 600;
+}
+
+.custom-tag i {
+	font-size: 16px;
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+.custom-tag-container input {
+	flex: 1;
+	font-size: 16px;
+	padding: 5px;
+	outline: none;
+	border: 0;
+}
